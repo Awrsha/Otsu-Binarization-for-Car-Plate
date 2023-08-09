@@ -73,7 +73,8 @@ binarized_image = otsu_binarization_with_gaussian_filter(image, gaussian_filter_
 
 # Visualize the binarized car plate image
 visualize_binarized_image(binarized_image)
-'''
+
+```
 
 Make sure to replace 'path_to_image.jpg' with the actual path to your car plate image file. Adjust the gaussian_filter_size and gaussian_filter_sigma parameters to control the amount of noise reduction. Set otsu_thresholding to True for automatic threshold determination using Otsu's method or False to use a fixed threshold.
 
