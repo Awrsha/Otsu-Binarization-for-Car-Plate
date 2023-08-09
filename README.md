@@ -55,7 +55,7 @@ The Otsu Binarization algorithm with Gaussian filtering implemented in this note
 
 Here's an example demonstrating the usage of the Otsu Binarization algorithm with Gaussian filtering for car plate recognition:
 
-python
+``` python
 # Import the required functions from the OtsuBinarizationWithGaussianFilter.ipynb notebook
 from OtsuBinarizationWithGaussianFilter import load_image, otsu_binarization_with_gaussian_filter, visualize_binarized_image
 
@@ -73,7 +73,7 @@ binarized_image = otsu_binarization_with_gaussian_filter(image, gaussian_filter_
 
 # Visualize the binarized car plate image
 visualize_binarized_image(binarized_image)
-
+'''
 
 Make sure to replace 'path_to_image.jpg' with the actual path to your car plate image file. Adjust the gaussian_filter_size and gaussian_filter_sigma parameters to control the amount of noise reduction. Set otsu_thresholding to True for automatic threshold determination using Otsu's method or False to use a fixed threshold.
 
